@@ -6,40 +6,42 @@ function speak(text) {
     window.speechSynthesis.speak(message)
 }
 
+
+
 const quizData = [
     {
-        question: "Что делать если спиздил код с гитхаба?",
-        a: "Выйти в окно",
-        b: "Выпрыгнуть в окно",
-        c: "Отпиздить тех кто нихуя не делает",
+        question: "Сколько было губерний до восстания?",
+        a: "30",
+        b: "14",
+        c: "20",
         correct: "c",
     },
     {
-        question: "What does CSS stand for?",
-        a: "Cascading Style Sheets",
-        b: "Cars SUVs Sailboats",
-        c: "Central Style Sheets",
+        question: "Сколько было погибших?",
+        a: "примено 20 тыс.",
+        b: "примено 5 тыс.",
+        c: "примено 2 тыс.",
         correct: "a",
     },
     {
-        question: "What year did JavaScript appear?",
-        a: "1899",
-        b: "2005",
-        c: "1995",
-        correct: "c",
+        question: "Достиг ли своих целей Пугачев?",
+        a: "Нет",
+        b: "Да",
+        c: "кто такой Пугачев?",
+        correct: "a",
     },
     {
-        question: "Who is the author of the JavaScript language?",
-        a: "Bill Gates",
-        b: "Brendan Eich",
-        c: "Steve Jobs",
+        question: "Чем стала река Рик?",
+        a: "Волгой",
+        b: "Уралом",
+        c: "Камазом",
         correct: "b",
     },
     {
-        question: "What language is this project written in?",
-        a: "JavaScript",
-        b: "Ruby",
-        c: "C++",
+        question: "Когда происходило восстание?",
+        a: "1773 – 1775 гг.",
+        b: "1765 – 1769 гг.",
+        c: "1780 – 1783 гг.",
         correct: "a",
     },
 ];

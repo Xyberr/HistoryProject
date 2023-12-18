@@ -22,7 +22,12 @@
 <body>
 <section class="contentQuiz">
     <h2>КВИЗ</h2>
-    <button class="startQuiz" onclick= href="Quiz/Quiz.html">Начать квиз!</button>
+    <button class="startQuiz" onclick="startQuiz()">Начать квиз!</button>
+    <script>
+        function startQuiz() {
+            window.location.href = "Quiz.html"; // Перенаправление на другую страницу
+        }
+    </script>
 </section>
 </body>
 </html>
